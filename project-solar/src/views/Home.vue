@@ -2,6 +2,12 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Project Solar"/>
+    <p>Test</p>
+    <p>Test2</p>
+    <p>Test3</p>
+    <p>Test4</p>
+    <p>Test5</p>
+    <p>Test6</p>
   </div>
 </template>
 
@@ -16,3 +22,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  p {
+    padding:50px;
+  }
+</style>
