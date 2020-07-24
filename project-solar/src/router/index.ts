@@ -32,6 +32,11 @@ const routes: Array<RouteConfig> = [
     path: '/policies',
     name: 'Policies',
     component: () => import('../views/Policies.vue')
+  },
+  {
+    path: '/Ocean',
+    name: 'Ocean',
+    component: () => import('../views/Ocean.vue')
   }
 ]
 

@@ -2,7 +2,6 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>{{ test }}</h2>
-    <button>Info</button>
   </div>
 </template>
 
@@ -12,7 +11,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
-  public test = 'Description of Project';
+  public test = 'A website made to display information on climate change and its effects on the world.';
 }
 </script>
 
