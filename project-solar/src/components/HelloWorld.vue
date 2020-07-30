@@ -11,7 +11,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
-  public test = 'A website made to display information on climate change and its effects on the world.';
+  public test = 'A placeholder for a real description.';
 }
 </script>
 
